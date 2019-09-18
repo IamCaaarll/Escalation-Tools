@@ -1,0 +1,130 @@
+
+.overflow
+{
+    display: inline-block;
+    font-size: 20px;
+    overflow-y: scroll;
+    background-color: whitesmoke;
+    width: 30%;
+    height: 30%;
+    margin: 10px;
+
+    border: 10px;
+}
+.followup
+{
+    display: inline-block;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 100%;
+}
+
+input[type=text] {
+    font-size: 12px;
+    width: 75%;
+    height: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+inpuinput[type=text] {
+    width: 100%;
+
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.submits{
+    width: 15%;
+    background-color: rgb(59, 121, 255);
+    color: white;
+    font-size: 12px;
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(48, 44, 255);
+}
+
+.nav {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.inlines{
+
+float: left;
+padding-top: 10px;
+padding-left: 30px;
+}
+
+.backcolor
+{
+ font-size: 15px;
+text-align: center;
+background-color: grey;
+padding-top: 2px;
+padding-bottom: 2px;
+padding-left: 5px;
+padding-right: 5px;
+border-radius: 8px;
+}
+.name
+{
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+
+.dlist
+{
+
+border-radius: 4px;
+font-size: 15px;
+margin: 5px;
+margin-top: 20px;
+    padding: 5px;
+    background-color: white;
+text-align: left;
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(61, 61, 255);
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: rgb(61, 61, 255);
+}
+
+/* mouse over link */
+a:hover {
+    text-decoration: underline;
+    color:rgb(99, 99, 99);
+}
+
+/* selected link */
+a:active {
+    color: rgb(61, 61, 255);
+}
+label.tag
+{
+    font-size: 12px;
+}

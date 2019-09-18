@@ -1,0 +1,210 @@
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+.passwordsss
+{
+   background-color: black;
+}
+input[type=text], input[type=textarea], select {
+    text-align: center;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+inpuinput[type=text],inpuinput[type=textarea],select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+p.header
+{
+ font-size: 20px;
+ text-align: center;
+ margin:30px;
+ font-weight: lighter;
+}
+
+.submits{
+    width: 100%;
+    background-color: rgb(59, 121, 255);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color:blue;
+}
+.btngo
+{
+    width: 30%;
+}
+iframe.sample
+{
+    margin-top: -20px;
+    background-color: bwhitelack;
+    height: 91%;
+    width: 100%;
+}
+img
+{
+    margin-left: 75px;
+}
+.logins
+{
+
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+}
+.label
+{
+font-size:14px;
+font-weight: bold;
+padding: 20px;
+}
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+.dropdown {
+
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: -100;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+}
+
+.dropdown-content a {
+
+    position: absolute;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+
+.errors
+{
+    background:rgba(255, 153, 153, 0.507);
+    border-style:solid;
+    border-color:rgba(255, 153, 153, 0.212);
+    text-align: center;
+    color: rgb(163, 73, 73);
+    padding:2px;
+    font-size:15px;
+    border-radius:5px;
+}
+
+/* The container */
+.container {
+  display: inline-block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: 50px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ 	top: 5px;
+	left: 5px;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: white;
+}
